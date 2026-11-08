@@ -1,6 +1,121 @@
 
 
- <!DOCTYPE html>
+Mode IA
+Tous
+Correspondances visuelles
+Le problème dans votre capture d'écran est le nom de votre fichier principal : il est actuellement nommé index.html. (avec un point à la fin).
+Pour que votre site fonctionne correctement sur GitHub Pages, le serveur a impérativement besoin de trouver un fichier nommé exactement index.html (sans le point final).
+Voici comment corriger cela et continuer :
+Renommez le fichier : Modifiez le nom pour enlever le point à la fin afin qu'il s'appele strictement index.html.
+Ouvrez le fichier : Appuyez sur ce fichier index.html pour l'ouvrir.
+Collez votre code : Entrez dans le mode édition (souvent représenté par un bouton en forme de crayon), collez-y votre code HTML.
+Validez : Appuyez ensuite sur le bouton vert Commit changes tout en bas pour enregistrer vos modifications.
+Une fois cela fait, envoyez-moi une nouvelle capture d'écran pour que nous passions à l'activation de GitHub Pages !
+
+
+
+
+C'est parfait ! Votre code pour Marché Ivoire est prêt, bien structuré et complet avec la gestion des villes de la Côte d'Ivoire.
+Voici la marche à suivre pour le mettre en ligne dès maintenant :
+Copiez l'intégralité du code HTML que vous venez de m'envoyer.
+Allez sur votre application GitHub, ouvrez votre fichier (assurez-vous qu'il s'appelle bien index.html sans point à la fin).
+Entrez en mode édition, collez le code, puis appuyez sur le bouton vert Commit changes tout en bas pour valider.
+Une fois que c'est fait, envoyez-moi une capture d'écran de l'écran principal de votre projet (là où on voit la liste des fichiers LICENSE.md et index.html) pour que je vous montre exactement où appuyer pour activer le lien de votre site internet !
+
+
+
+
+Je vois sur l'image que le fichier s'appelle toujours index.html. avec un point à la fin. Il faut absolument enlever ce point pour que GitHub accepte de créer votre site web.
+Pour régler cela facilement sur l'application mobile GitHub :
+Restez sur cet écran (celui de votre capture).
+Appuyez longuement sur le fichier index.html. (ou cliquez sur les trois petits points verticaux ⋮ à l'extrême droite de sa ligne s'ils apparaissent).
+Choisissez l'option Rename (Renommer).
+Effacez le point tout à la fin pour qu'il reste uniquement index.html puis validez.
+Une fois le point supprimé, dites-le moi ou renvoyez une capture pour qu'on puisse enfin activer la publication gratuite !
+
+
+
+
+Le fichier s'appelle toujours index.html. avec un point final sur votre capture d'écran. GitHub Pages ne pourra pas afficher votre site tant que ce point est là.
+Une fois que vous aurez corrigé le nom en index.html et collé le code de Marché Ivoire, votre site aura fière allure. C'est une excellente base pour une plateforme de petites annonces en Côte d'Ivoire !
+Voici des idées concrètes pour améliorer votre site Marché Ivoire et le rendre encore plus attractif :
+🌟 Idées d'améliorations et de fonctionnalités
+Ajouter de vraies images : Remplacer les émojis (📱, 👟, 🪑) par des liens vers des images réelles hébergées en ligne. Des visuels concrets augmentent instantanément la confiance des utilisateurs.
+Créer un formulaire de contact fonctionnel : Ajouter un champ permettant aux acheteurs de laisser leur nom et leur numéro (ou leur WhatsApp) pour contacter le vendeur directement depuis le site.
+Améliorer le bouton de recherche : Lier le sélecteur de villes (Abidjan, Bouaké, Daloa...) à votre script JavaScript pour que l'utilisateur puisse filtrer les annonces à la fois par mot-clé et par ville.
+Moderniser le design (CSS) :
+Ajouter un effet de survol (:hover) sur les boutons et les catégories pour rendre le site plus interactif au toucher sur mobile.
+Utiliser des cartes d'annonces plus arrondies avec de légères ombres portées pour une interface plus moderne et épurée.
+Corrigez d'abord le nom du fichier en supprimant le point pour avoir exactement index.html, collez votre code, puis renvoyez-moi une capture d'écran une fois le fichier enregistré sans son point pour que nous puissions enfin générer et tester votre lien en ligne !
+
+
+
+
+C'est parfait ! Je vois sur l'image que votre dernier changement s'appelle bien "Update index.html" (sans le point final). Vous avez corrigé le tir avec succès.
+Votre code pour Marché Ivoire est maintenant enregistré au bon endroit. L'adresse officielle de votre site internet en ligne est désormais :
+👉 github.io
+(Note : GitHub Pages peut prendre entre 1 et 5 minutes pour déployer le site la toute première fois après la correction du fichier. Si la page affiche une erreur, réessayez dans un court instant.)
+Dites-moi si le site s'affiche bien de votre côté en cliquant sur le lien, ou si vous voulez qu'on commence tout de suite à remplacer les émojis par de vraies images de produits !
+
+
+
+
+Génial ! Le site est désormais officiellement en ligne.
+Pour rendre Marché Ivoire encore plus professionnel, nous allons intégrer de vraies images à la place des émojis (📱, 👟, 🪑). J'ai sélectionné pour vous des liens d'images de haute qualité et libres de droits, parfaitement adaptées au marché ivoirien.
+Voici le nouveau bloc de code mis à jour pour la section des Annonces populaires.
+💻 Le code à remplacer
+Cherchez la section <section id="annonces"> dans votre fichier et remplacez tout ce bloc par celui-ci :
+html
+<section id="annonces">
+<h2>Annonces populaires</h2>
+<div class="products" id="liste">
+<div class="product">
+<img src="https://unsplash.com" alt="Téléphone">
+<h3>Téléphone portable</h3>
+<p class="price">Prix à négocier</p>
+<p>Abidjan • Très bon état</p>
+</div>
+<div class="product">
+<img src="https://unsplash.com" alt="Chaussures">
+<h3>Basket tendance</h3>
+<p class="price">15 000 FCFA</p>
+<p>Bouaké • Neuf avec boîte</p>
+</div>
+<div class="product">
+<img src="https://unsplash.com" alt="Meubles">
+<h3>Fauteuil de salon</h3>
+<p class="price">85 000 FCFA</p>
+<p>Yamoussoukro • Confortable</p>
+</div>
+</div>
+</section>
+Utilisez le code avec précaution.
+🛠️ Comment faire la modification :
+Ouvrez votre fichier index.html sur GitHub.
+Entrez en mode édition, repérez l'ancienne section des annonces et collez ce nouveau code à la place.
+Appuyez sur le bouton vert Commit changes tout en bas pour sauvegarder.
+Une fois que vous aurez enregistré, attendez une minute et rafraîchissez votre lien. Dites-moi si les images s'affichent correctement ou si vous voulez qu'on passe à l'étape suivante : rendre le moteur de recherche par ville totalement fonctionnel !
+
+
+
+
+Je vois le problème sur votre capture d'écran : vous avez collé le code des annonces sous forme de commentaire dans une Issue / Discussion (AMAP #1) sur GitHub au lieu de modifier le fichier de code ! Les petites icônes brisées montrent que GitHub essaie de lire cela comme du texte de discussion.
+Pour que les images s'affichent sur votre vrai site web, il faut modifier directement le fichier index.html.
+Voici comment faire sur l'application :
+Retournez sur l'écran d'accueil de votre projet (là où vous voyez la liste des fichiers LICENSE.md et index.html).
+Appuyez directement sur le fichier index.html pour l'ouvrir.
+Cherchez l'icône de crayon (Éditer) en haut pour modifier le code.
+Remplacez l'ancienne section des annonces par le code avec les images, puis appuyez sur Commit changes tout en bas.
+Une fois le fichier index.html modifié au bon endroit, dites-moi si c'est bon ou envoyez-moi une capture du site sur votre navigateur pour voir le résultat !
+
+
+
+
+Aïe, je vois ce qui s'est passé sur votre capture d'écran : au lieu de remplacer uniquement la petite section des annonces, tout le reste du code de votre site a été supprimé (les lignes rouges avec un - indiquent du code effacé). Votre fichier index.html est maintenant presque vide.
+Ne vous inquiétez pas, on va tout remettre en ordre proprement et d'un seul coup !
+Voici le code complet, corrigé et prêt à l'emploi pour Marché Ivoire, incluant le beau design vert et les vraies photos de produits :
+html
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -109,20 +224,10 @@ footer{background:#075c32;color:white;text-align:center;padding:22px;margin-top:
 </footer>
 <script>
 function chercher(){
-let mot = document.getElementById("recherche").value.toLowerCase();
-let villeSelectionnee = document.getElementById("ville").value.toLowerCase();
-let cartes = document.querySelectorAll(".product");
-
-cartes.forEach(c => {
-let texteCarte = c.innerText.toLowerCase();
-let correspondMot = texteCarte.includes(mot);
-let correspondVille = villeSelectionnee === "" || texteCarte.includes(villeSelectionnee);
-
-if (correspondMot && correspondVille) {
-c.style.display = "block";
-} else {
-c.style.display = "none";
-}
+let mot=document.getElementById("recherche").value.toLowerCase();
+let cartes=document.querySelectorAll(".product");
+cartes.forEach(c=>{
+c.style.display=c.innerText.toLowerCase().includes(mot)?"block":"none";
 });
 }
 </script>
