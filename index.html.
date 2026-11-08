@@ -100,4 +100,4 @@ c.style.display=c.innerText.toLowerCase().includes(mot)?"block":"none";
 }
 </script>
 </body>
-</html>
+</html> 
