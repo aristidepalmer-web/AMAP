@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+
+ <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -107,10 +109,20 @@ footer{background:#075c32;color:white;text-align:center;padding:22px;margin-top:
 </footer>
 <script>
 function chercher(){
-let mot=document.getElementById("recherche").value.toLowerCase();
-let cartes=document.querySelectorAll(".product");
-cartes.forEach(c=>{
-c.style.display=c.innerText.toLowerCase().includes(mot)?"block":"none";
+let mot = document.getElementById("recherche").value.toLowerCase();
+let villeSelectionnee = document.getElementById("ville").value.toLowerCase();
+let cartes = document.querySelectorAll(".product");
+
+cartes.forEach(c => {
+let texteCarte = c.innerText.toLowerCase();
+let correspondMot = texteCarte.includes(mot);
+let correspondVille = villeSelectionnee === "" || texteCarte.includes(villeSelectionnee);
+
+if (correspondMot && correspondVille) {
+c.style.display = "block";
+} else {
+c.style.display = "none";
+}
 });
 }
 </script>
